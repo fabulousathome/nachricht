@@ -52,7 +52,7 @@
     const message = document.getElementById("message").value.trim();
     if (!message) return;
 
-    const response = await fetch("http://fabulousathome.internet-box.ch:5001/update", {
+    const response = await fetch("https://fabulousathome.internet-box.ch:5001/update", {
       method: "POST",
       headers: {
         "Content-Type": "application/x-www-form-urlencoded"
